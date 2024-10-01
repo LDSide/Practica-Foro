@@ -1,5 +1,3 @@
-let foto = document.createElement("img"); /*insertar imagen*/
-foto.src = "Character.jpg";
 
 function consulta(){ /*llamar datos de json*/
     let datosjson;
@@ -22,6 +20,12 @@ function consulta(){ /*llamar datos de json*/
         infoh.textContent = 'Tematica principal' + salida.informacion[1].hobby;
         document.getElementById("union")
         union.textContent = 'Membresia' + salida.union;
-    })
+    });
+}
+function archivo(){
+    let foto = document.createElement("img"); /*insertar imagen*/
+    foto.src = "paisaje1.jpg";
+    let imagen = document.getElementById("foto");
+        imagen.appendChild(foto);
 
 }
