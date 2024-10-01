@@ -1,0 +1,9 @@
+{
+    "nombre": "Lorena Delgado",
+    "ciudad": "Nariño, Colombia",
+    "telefono": "1234567890",
+    "correo": "lodel1306@gmail.com",
+    "edad": "28",
+    "informacion": [{"profesion": "Biologa", "Experiencia": "1 Año"}, {"hobby": "fotografia de paisajes", "trayectoria":"5 Años"}],
+    "union": "23/09/24"
+}
